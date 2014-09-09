@@ -1,0 +1,40 @@
+{
+    "uid": "fbcomments-pencilblue",
+    "name": "Facebook Comments",
+    "description": "Add Facebook comments to your articles.",
+    "version": "0.1.0",
+    "author": {
+        "name": "PencilBlue",
+        "email": "info@pencilblue.org",
+        "website": "http://pencilblue.org",
+        "contributors": [
+            {
+                "name": "Blake Callens",
+                "email": ""
+            },
+            {
+                "name": "Brian Hyder",
+                "email": ""
+            }
+        ]
+    },
+    "settings": [
+        {
+            "name": "facebook_app_id",
+            "value": ""
+        }
+    ],
+    "permissions": {
+        "ACCESS_USER": [],
+        "ACCESS_WRITER": [],
+        "ACCESS_EDITOR": [],
+        "ACCESS_MANAGING_EDITOR": []
+    },
+    "main_module": {
+        "path": "fbcomments.js"
+    },
+    "theme": {
+        "settings": [],
+        "content_templates":[]
+    }
+}
